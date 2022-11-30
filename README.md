@@ -1,5 +1,9 @@
 # SysNR-FuncFinder
 **A plugin for IDA** that renames functions by system call numbers.
+## Update History
+|Version|Date|Supported Arch|
+|----|----|----|
+|1.0|2022-11-30|AMD x86-64 architecture、Intel 80386、MIPS I Architecture、Advanced RISC Machines ARM|
 ## Background
 In my daily analysis, many ELF files are stripped, in this condition IDA won't provide any function name, when this happens, analyzing the sample becomes difficult. So I write a plugin that can rename functions by system call numbers.
 ## Install
