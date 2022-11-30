@@ -16,4 +16,4 @@ In my daily analysis, many ELF files are stripped, in this condition IDA won't p
 ## Example
 ![image](https://github.com/WPeace-HcH/SysNR-FuncFinder/blob/main/IMG/example.gif)
 ## Contact
-Email hackinwpeace@gmail.com or leave a message for any questions.
+You can leave a message for any questions.
