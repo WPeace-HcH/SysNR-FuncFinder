@@ -9,7 +9,7 @@
 |1.4|2023-01-05|ARM32 for EABI、AMD x86-64 architecture、Intel 80386、MIPS I Architecture、Advanced RISC Machines ARM|Support finding main function for EABI ARM32.|
 |1.5|2023-02-10|ARM32 for EABI、AMD x86-64 architecture、Intel 80386、MIPS I Architecture、Advanced RISC Machines ARM|Support finding main function for all architecture.|
 |1.6|2023-02-14|ARM32 for EABI、AMD x86-64 architecture、Intel 80386、MIPS I Architecture、Advanced RISC Machines ARM|Fix bugs when finding main function.|
-|1.7|2023-03-22|ARM32 for EABI、AMD x86-64 architecture、Intel 80386、MIPS I Architecture、Advanced RISC Machines ARM|Fix a bug and change some details.|
+|1.7|2023-03-22|ARM32 for EABI、AMD x86-64 architecture、Intel 80386、MIPS I Architecture、Advanced RISC Machines ARM|Fix a bug and change some details.<br>(You need to delete old `SysNR-FuncFinder_WPeace.py` because the py-name have changed.)|
 ## Background
 In my daily analysis, many ELF files are stripped, in this condition IDA won't provide any function name, when this happens, analyzing the sample becomes difficult. So I write a plugin that can rename functions by system call numbers.
 ## Install
