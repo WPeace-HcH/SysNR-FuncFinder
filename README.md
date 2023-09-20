@@ -13,6 +13,7 @@
 |2.1|2023-04-14|ARM32 for EABI、AMD x86-64 architecture、Intel 80386、MIPS I Architecture、Advanced RISC Machines ARM、PowerPC32|Fix a bug in MIPS support.|
 |2.3|2023-07-05|ARM32 for EABI、AMD x86-64 architecture、Intel 80386、MIPS I Architecture、Advanced RISC Machines ARM、PowerPC32|- Fix the bug of overflow in some cases under x64 architecture.<br>- Enhance the search for the main function of the x64 architecture.|
 |2.4|2023-08-31|ARM32 for EABI、AMD x86-64 architecture、Intel 80386、MIPS I Architecture、Advanced RISC Machines ARM、PowerPC32|Added some function identification under the ARM architecture.|
+|2.5|2023-09-20|ARM32 for EABI、AMD x86-64 architecture、Intel 80386、MIPS I Architecture、Advanced RISC Machines ARM、PowerPC32|Fix a bug when finding main function under the MIPS architecture.|
 ## Background
 In my daily analysis, many ELF files are stripped, in this condition IDA won't provide any function name, when this happens, analyzing the sample becomes difficult. So I write a plugin that can rename functions by system call numbers.
 ## Install
